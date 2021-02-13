@@ -11,7 +11,8 @@ services:
       # REQUIRED for all types
       - EULA=TRUE
       # Set server type (vs the default of vanilla)
-      - TYPE=SNAPSHOT
+      - TYPE=VANILLA
+      - VERSION=SNAPSHOT
       # Use Pack ID from https://ftb.neptunepowered.org/pack/ftb-presents-direwolf20-1-12/
       - MEMORY=3G
     volumes:
