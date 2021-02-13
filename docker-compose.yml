@@ -11,11 +11,9 @@ services:
       # REQUIRED for all types
       - EULA=TRUE
       # Set server type (vs the default of vanilla)
-      - TYPE=FTBA
+      - TYPE=SNAPSHOT
       # Use Pack ID from https://ftb.neptunepowered.org/pack/ftb-presents-direwolf20-1-12/
-      - FTB_MODPACK_ID=1
       - MEMORY=3G
-      - JVM_DD_OPTS=io.netty.leakDetection.level:advanced
     volumes:
       # use a named, managed volume for data volume
       - ./data:/data
